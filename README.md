@@ -24,6 +24,6 @@ we build lot of perfect models using different algorithm like logical regression
 Stacking is mostly used to increase the prediction accuracy of a model. For implementing stacking we will use the mlextend library provided by sci-kit learn
 
 # Cascading:
-We build a model which is 100 percent sure about the prediction,if the predicted probablity is less than 100% then the data point is sent to more complex model which was trained on failure cases of orginal data point.
+We build a model which gives the prediction with probablity of the prediction,if the predicted probablity is less than 100% then the data point is sent to more complex model which was trained on failure cases of orginal data point.
 
 This class of models are very very accurate. Cascading is mostly used in scenarios where you cannot afford to make a mistake. For example, a cascading technique is mostly used to detect fraudulent credit card transactions, or maybe when you want to be absolutely sure that you don’t have cancer.
