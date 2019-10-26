@@ -12,6 +12,9 @@ import seaborn as sns
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
 
+from xgboost.sklearn import XGBClassifier
+from sklearn.ensemble import RandomForestClassifier
+
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics import confusion_matrix
 from sklearn import metrics
@@ -39,3 +42,5 @@ import plotly.offline as offline
 import plotly.graph_objs as go
 offline.init_notebook_mode()
 from collections import Counter
+
+
